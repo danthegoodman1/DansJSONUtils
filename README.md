@@ -3,6 +3,10 @@ Utilities for dealing with JSON in NodeJS
 
 ## Flatten
 
+```js
+const { flatten } = require("danjsonutils/flatten")
+```
+
 Flattening JSON for use such as creating columns for SQL schemas.
 
 Rather than having something that preserves indexes in the format of `parent.0.child: val`, objects are flattened like `parent.child: [val]` so that arrays are preserved.
