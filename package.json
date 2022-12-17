@@ -1,0 +1,23 @@
+{
+  "name": "dansjsonutils",
+  "version": "1.0.0",
+  "description": "Utilities for dealing with JSON in NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danthegoodman1/DansJSONUtils.git"
+  },
+  "keywords": [
+    "json"
+  ],
+  "exports": {},
+  "author": "danthegoodman1",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danthegoodman1/DansJSONUtils/issues"
+  },
+  "homepage": "https://github.com/danthegoodman1/DansJSONUtils#readme"
+}
