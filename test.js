@@ -38,7 +38,15 @@ console.log(a, aString === bString)
 
 console.log(JSON.stringify(flatten({
   "a": [
+    {
+      "b": 1
+    },
+    {
+      "c": 2
+    }
+  ],
+  "d": [
     1,
-    {"a": 1}
+    "string"
   ]
 }), null, 2))
