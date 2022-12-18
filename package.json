@@ -13,11 +13,13 @@
   "keywords": [
     "json"
   ],
-  "exports": {},
   "author": "danthegoodman1",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/danthegoodman1/DansJSONUtils/issues"
   },
-  "homepage": "https://github.com/danthegoodman1/DansJSONUtils#readme"
+  "homepage": "https://github.com/danthegoodman1/DansJSONUtils#readme",
+  "exports": {
+    "flatten": "./flatten"
+  }
 }
