@@ -18,8 +18,5 @@
   "bugs": {
     "url": "https://github.com/danthegoodman1/DansJSONUtils/issues"
   },
-  "homepage": "https://github.com/danthegoodman1/DansJSONUtils#readme",
-  "exports": {
-    "main": "./index.js"
-  }
+  "homepage": "https://github.com/danthegoodman1/DansJSONUtils#readme"
 }
