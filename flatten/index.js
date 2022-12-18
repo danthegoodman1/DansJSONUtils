@@ -47,7 +47,7 @@ function flatten(obj, separator = "__") {
         }
         // Forward-fill nulls
         for (const k of Object.keys(flat)) {
-          if (!flattened[k]) {
+          if (flattened[k] === undefined) {
             flat[k].push(null)
           }
         }
