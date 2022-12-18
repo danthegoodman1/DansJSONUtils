@@ -1,6 +1,6 @@
 {
   "name": "dansjsonutils",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Utilities for dealing with JSON in NodeJS",
   "main": "index.js",
   "scripts": {
