@@ -37,7 +37,7 @@ function flatten(obj, separator = "__") {
           return JSON.stringify(obj)
         }
         hasObj = true
-        const flattened = flatten(item)
+        const flattened = flatten(item, separator)
         for (const [k, nval] of Object.entries(flattened)) {
           if (flat[k] === undefined) {
             // Back-fill nulls
@@ -55,7 +55,7 @@ function flatten(obj, separator = "__") {
         if (hasObj) {
           return JSON.stringify(obj)
         }
-        const f = flatten(item)
+        const f = flatten(item, separator)
         // array of arrays support
         hasArr = true
         arr.push(f)
@@ -84,12 +84,12 @@ function flatten(obj, separator = "__") {
     hasObj = true
     for (const [key, val] of Object.entries(obj)) {
       if (isObject(val)) {
-        const flattened = flatten(val)
+        const flattened = flatten(val, separator)
         for (const [nkey, nval] of Object.entries(flattened)) {
           flat[key+separator+nkey] = nval
         }
       } else if (Array.isArray(val)) {
-        const flattened = flatten(val)
+        const flattened = flatten(val, separator)
         if (isObject(flattened)) {
           // merge it
           for (const [nkey, nval] of Object.entries(flattened)) {
