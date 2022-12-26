@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/danthegoodman1/DansJSONUtils/issues"
   },
-  "homepage": "https://github.com/danthegoodman1/DansJSONUtils#readme"
+  "homepage": "https://github.com/danthegoodman1/DansJSONUtils#readme",
+  "dependencies": {
+    "to-json-schema": "^0.2.5"
+  }
 }
